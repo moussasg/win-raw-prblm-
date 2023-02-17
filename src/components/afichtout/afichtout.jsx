@@ -1,14 +1,16 @@
 import React from 'react'
-import Toutmrq from '../../constant/toutemarque';
-import Products from "../../pages/products/nproducts"
-export default function Smart() {
+import classes from "./index.module.css"
+export default function Smart({Ourp:{image}}) { // pas la peine de Ourp psq drte {...el}
 return (
-<div>
-    {Toutmrq.map((el,el1) => (
-    <Products key={el1} Ourp={el}/>   
-    ))}
-</div>
-)
-}
+   <div className={classes.cardContainer}>
+   <img src={image}></img>
+   </div>
+)}
+
+
+
+
+   
+   
 
     

@@ -1,8 +1,5 @@
 .Prod {
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
     gap: 45px;
     background-color: #ffc107
 }

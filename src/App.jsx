@@ -2,9 +2,8 @@ import React  from 'react'
 import './App.css'
 import { Link,  Route, Routes } from "react-router-dom"
 import Home from './pages/home/home'
-import Products from "./pages/products/nproducts"
+import Products from "./pages/store/nproducts" // npaiw 3lih wnmedoh props l afichtout// trés important
 import Contact from "./pages/contact/contact"
-import Toutmrq from './constant/toutemarque'
 function App() {
   return (  
     <>
@@ -14,9 +13,9 @@ function App() {
 				<Link to="/Contact">Contact</Link>
     </nav>
     <Routes>
-				<Route path="/Home" element={<Home />} />
-				<Route path="/Products" element={<Products />} />
-				<Route path="/contact" element={<Contact />} />
+				<Route path="/Home" element={<Home/>} />
+				<Route path="/Products" element={<Products/>} />
+				<Route path="/contact" element={<Contact/>} />
     </Routes>
       </>
   )}
